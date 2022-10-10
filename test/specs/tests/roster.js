@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-describe('Roster Test Suite', async() =>{
+describe('Roster Test Suite', () =>{
     it('should have default values', async() =>{
         await browser.url('http://localhost:8080/index.html');
 
